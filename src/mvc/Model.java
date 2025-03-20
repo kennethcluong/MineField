@@ -3,12 +3,6 @@ package mvc;
 import java.io.*;
 import java.util.*;
 
-/**
- * Super class of any class playing the role of Model in the
- * Model-View-Controller pattern.
- * @author pearce
- *
- */
 public class Model extends Observable implements Serializable {
 	private static final long serialVersionUID = 1L;
 	/**
