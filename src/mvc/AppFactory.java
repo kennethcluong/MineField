@@ -17,4 +17,6 @@ public interface AppFactory {
     String[] getHelp();  // Provides help text
 
     String about();  // Provides about information
+
+    View getView(Model model);
 }
